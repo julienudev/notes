@@ -34,3 +34,16 @@
 # Directive
 
 ## Custom Directive
+
+* ng g directive <directive-name>
+
+# Angular Library
+
+* ng g lib <lib-name>
+* To build library `ng build lib-name`
+* Output will be generated to `dist/lib-name` folder
+* use `npm publish dist/lib-name --access=public` to publish on npm
+
+# To use library in different project
+
+* use `npm install <lib-name>` to install library
